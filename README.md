@@ -1,5 +1,5 @@
 # P-CW1
-P-CW1: Patchwork Algorithm DevLog
+P-CW1: Patchwork Algorithm DevLog (there's supposed to be images here but i can't paste them in)
 01/12/23 – Started with a barebones top-down design to work out how I would lay out the program.
  
 02/12/23 – Filled in the getInputs function, creating two while loops (one for patch size input, one for colour input) to catch invalid inputs. I used some error handling for patch size, so that if the user enters a string into the integer input it will throw a ValueError, and if they enter an integer that doesn’t meet the conditions of the if statement, it raises the same error. For the colours loop, I simply created a counter to make sure that 3 inputs are taken – the counter is only increased if the input is valid.
